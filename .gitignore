@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/many_files/*
+data/messy_files/*
+data/nested_folders/*
