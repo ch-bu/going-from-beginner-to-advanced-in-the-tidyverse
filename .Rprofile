@@ -1,0 +1,3 @@
+.First <- function() {
+  library(tidyverse)
+}

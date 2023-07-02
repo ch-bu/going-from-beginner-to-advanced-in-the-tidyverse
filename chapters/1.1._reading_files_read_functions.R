@@ -7,7 +7,8 @@ mpg_new <- read_csv("data/mpg_uppercase.csv") |>
 
 
 read_csv("data/mpg_uppercase.csv",
-         name_repair = \(column_name) make_clean_names(column_name, 
-                                                       case = "snake"),
-         col_select = c(manufacturer, model))
+         name_repair = \(column_name) make_clean_names(column_name,
+                                                       case = "big_camel"),
+         col_select = c(Manufacturer, Model)) |> 
+  glimpse()
 
