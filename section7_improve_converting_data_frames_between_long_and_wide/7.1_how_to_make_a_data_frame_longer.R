@@ -8,7 +8,6 @@ running_data <- tribble(
 )
 
 
-
 # Column headers are values of one variable, not variable names -----------
 
 
